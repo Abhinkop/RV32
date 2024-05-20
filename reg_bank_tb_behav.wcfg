@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="reg_bank_alu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="reg_bank_alu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="114.901 ns"></ZoomEndTime>
+      <Cursor1Time time="58.223 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="226"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/alu_ut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/alu_ut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/rs1">
+      <obj_property name="ElementShortName">rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/rs2">
+      <obj_property name="ElementShortName">rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/result">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/alu_ut/carry">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/alu_ut/overflow">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/alu_ut/zero">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/op">
+      <obj_property name="ElementShortName">op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/out">
+      <obj_property name="ElementShortName">out[32:0]</obj_property>
+      <obj_property name="ObjectShortName">out[32:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/rs1_old">
+      <obj_property name="ElementShortName">rs1_old[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_old[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/rs2_old">
+      <obj_property name="ElementShortName">rs2_old[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_old[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/alu_ut/prev_op">
+      <obj_property name="ElementShortName">prev_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/rb_ut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/rb_ut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/reg_bank_alu_tb/rb_ut/w_enable">
+      <obj_property name="ElementShortName">w_enable</obj_property>
+      <obj_property name="ObjectShortName">w_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/raddr1">
+      <obj_property name="ElementShortName">raddr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/raddr2">
+      <obj_property name="ElementShortName">raddr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/waddr">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/dout1">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/dout2">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/rb_ut/registers">
+      <obj_property name="ElementShortName">registers[31:0][32:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[31:0][32:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/fetch">
+      <obj_property name="ElementShortName">fetch[19:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/exec">
+      <obj_property name="ElementShortName">exec[19:0]</obj_property>
+      <obj_property name="ObjectShortName">exec[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/reg_bank_alu_tb/wb">
+      <obj_property name="ElementShortName">wb[19:0]</obj_property>
+      <obj_property name="ObjectShortName">wb[19:0]</obj_property>
+   </wvobject>
+</wave_config>

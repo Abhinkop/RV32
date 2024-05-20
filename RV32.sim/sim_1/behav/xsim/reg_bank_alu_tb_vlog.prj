@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../RV32.srcs/sources_1/new" \
+"../../../../RV32.srcs/sources_1/new/alu.v" \
+"../../../../RV32.srcs/sources_1/new/reg_bank.v" \
+
+sv xil_defaultlib  --include "../../../../RV32.srcs/sources_1/new" \
+"../../../../RV32.srcs/sim_1/new/reg_bank_alu_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
